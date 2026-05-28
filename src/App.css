@@ -1,4 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Geist:wght@100..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: #0000;
+  font-family: "Geist", sans-serif;
+}
+:root {
+  --primary-color: #1d3989;
+  --secondary-color: #7b39ec;
+}
+.filled-btn{
+    padding: 12px 20px;
+    background: linear-gradient(#7b39ec, #1d3989);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+}
+.filled-btn:hover{
+  background: none;
+    outline: 2px solid #7b39ec;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.outlined-btn{
+    background: none;
+    outline: 2px solid #7b39ec;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: none;
+}
+.outlined-btn:hover{
+   padding: 12px 20px;
+    background: linear-gradient(#7b39ec, #1d3989);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
 }
