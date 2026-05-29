@@ -4,6 +4,7 @@ import React from 'react'
 import HeroSection from '../Components/HeroSection'
 import About from '../Components/About'
 import Services from '../Components/Services'
+import Workflow from '../Components/Workflow.jsx'
 
 const index = () => {
   return (
@@ -16,6 +17,9 @@ const index = () => {
 
         {/* ---SERVICES SECTION--- */}
         <Services />
+
+        {/* ---WORKFLOW SECTION--- */}
+        <Workflow />
 
     </div>
   )
