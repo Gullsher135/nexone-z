@@ -5,6 +5,7 @@ import HeroSection from '../Components/HeroSection'
 import About from '../Components/About'
 import Services from '../Components/Services'
 import Workflow from '../Components/Workflow.jsx'
+import WhyChooseUS from '../Components/WhyChooseUS.jsx'
 
 const index = () => {
   return (
@@ -20,6 +21,9 @@ const index = () => {
 
         {/* ---WORKFLOW SECTION--- */}
         <Workflow />
+
+        {/* ---WHY CHOOSE US SECTION--- */}
+        <WhyChooseUS />
 
     </div>
   )

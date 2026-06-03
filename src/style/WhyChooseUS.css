@@ -1,0 +1,46 @@
+.why-choose-us-section{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 65px;
+}
+
+.why-choose-us-section .text-container{
+    width: 44%;
+}
+
+.why-choose-us-section .text-container .reason-item {
+    margin-top: 24px;
+}
+
+.why-choose-us-section .text-container .reason-item h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.why-choose-us-section .text-container .reason-item p{
+    color: #fff;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.why-choose-us-section .text-container h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.why-choose-us-section .image-container{
+    width: 45%;
+}
+
+.why-choose-us-section .image-container img{
+    width: 90%;
+}
