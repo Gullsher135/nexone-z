@@ -1,0 +1,145 @@
+.industries-section {
+    position: relative;
+}
+
+.industries-section .industries-content {
+     margin-top: 150px;
+  position: relative;
+  padding: 20px 65px;
+}
+.industries-section .text-container {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.industries-section .text-container .left-side{
+    width: 30%;
+}
+
+.industries-section .text-container .right-side {
+    /* border-left: 1px solid ; */
+    /* border-image: linear-gradient(180deg, #7b39ec 0%, #1d3989 100%); */
+    width: 40%;
+    /* height: 160px; */
+    padding: 10px 40px;
+    position: relative;
+}
+.industries-section .text-container .right-side::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        #7b39ec 0%,
+        #1d3989 100%
+    );
+
+    clip-path: polygon(
+       10% 0%,
+        60% 0%,
+        100% 50%,
+        60% 100%,
+        10% 100%,
+        0% 50%
+    );
+}
+
+.industries-section .text-container .right-side p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.industries-section .text-container .left-side h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 24px;
+}
+
+.industries-section .industries-cards {
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    /* margin-left: 100px; */
+    margin-left: 78px;
+}
+
+.industries-section .industries-cards .button button{
+    background: linear-gradient(180deg, #7b39ec 0%, #1d3989 100%);
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 55px;
+}
+
+.industries-section .industries-cards  .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.industries-section .industries-cards  .cards .card{
+    padding: 70px 50px;
+    background-color: #000;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 130px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.industries-section .industries-cards  .cards .card:hover{
+    background: linear-gradient(180deg, #7b39ec 0%, #1d3989 100%);
+    transform: scale(1.05);
+}
+
+.industries-section .industries-cards  .cards .card:hover .image-container{
+    background: #fff;
+}
+
+.industries-section .industries-cards  .cards .card:hover .image-container img{
+    filter: brightness(0) saturate(100%) invert(18%) sepia(65%) saturate(5585%) hue-rotate(218deg) brightness(95%) contrast(102%);
+}
+
+.industries-section .industries-cards  .cards .card .image-container{
+    background: linear-gradient(180deg, #7b39ec 0%, #1d3989 100%);
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+
+.industries-section .industries-cards  .cards .card h3{
+    color: #fff;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+}
+
+ .bottom-container {
+    width: 100%;
+}
+
+ .bottom-container img{
+    width: 103%;
+    position: absolute ;
+    top: 85%;
+    z-index: -1;
+} 

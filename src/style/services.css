@@ -31,11 +31,12 @@
     border-radius: 20px;
     padding: 20px;
     width: 90%;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 .services-section .content .cards .card:hover{
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    background: linear-gradient(135deg, #1d3989, #7b39ec);
 }
 .services-section .content .cards .card h2 , .services-section .content .cards .card p{
     color: #fff;

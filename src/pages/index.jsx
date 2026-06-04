@@ -6,6 +6,8 @@ import About from '../Components/About'
 import Services from '../Components/Services'
 import Workflow from '../Components/Workflow.jsx'
 import WhyChooseUS from '../Components/WhyChooseUS.jsx'
+import Portfolio from '../Components/Portfolio.jsx'
+import Industries from '../Components/Industries.jsx'
 
 const index = () => {
   return (
@@ -24,6 +26,12 @@ const index = () => {
 
         {/* ---WHY CHOOSE US SECTION--- */}
         <WhyChooseUS />
+
+        {/* ---PORTFOLIO SECTION--- */}
+        <Portfolio />
+
+        {/* ---INDUSTRIES SECTION--- */}
+        <Industries />
 
     </div>
   )
